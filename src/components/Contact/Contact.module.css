@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  width: 320px;
+  padding: 10px;
+
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text {
+  margin: 0;
+
+  font-size: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    border: 1px solid #16b65e;
+  }
+  .icon {
+    color: #16b65e;
+  }
+}

@@ -1,0 +1,15 @@
+.inputWrapper {
+  width: 320px;
+  padding: 5px;
+}
+
+.input {
+  width: 310px;
+  padding: 5px 5px 5px 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .label {
+    color: #16b65e;
+  }
+}

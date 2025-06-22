@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 320px;
+  margin: 0 auto;
+
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.textNotFoundPage {
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1440px;
+  padding: 30px;
+}
+
+.contactListWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

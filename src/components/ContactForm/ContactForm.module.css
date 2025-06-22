@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  align-items: center;
+
+  width: 320px;
+  padding: 10px;
+  padding-bottom: 15px;
+
+  border: 1px solid #111;
+  border-radius: 6px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+
+  font-size: 500;
+}
+
+.btn {
+  width: 150px;
+}
+
+.error {
+  color: rgb(214, 25, 154);
+}
+
+.input {
+  padding: 5px 5px 5px 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .form {
+    border: 1px solid #16b65e;
+  }
+  label {
+    color: #16b65e;
+  }
+}
